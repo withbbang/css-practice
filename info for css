@@ -1,0 +1,2 @@
+스크롤바 안 보이게 하는 방법
+.element::-webkit-scrollbar { width: 0 !important }
