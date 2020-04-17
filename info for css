@@ -10,6 +10,7 @@ text: The text can be selected by the user
 all: Text selection is made with one click instead of a double-click
 
 이벤트 제어
+pointer-events:none;
 none : HTML 요소에 정의된 클릭, 상태(hover,active등), 커서 옵션들이 비활성화한다.
 auto : 비활성화된 이벤트를 다시 기본 기능을 하도록 되돌린다.
 inherit : 부모 요소로부터 pointer-events 값을 상속받는다
