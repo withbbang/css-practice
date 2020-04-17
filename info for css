@@ -1,2 +1,15 @@
 스크롤바 안 보이게 하는 방법
 .element::-webkit-scrollbar { width: 0 !important }
+
+텍스트 블록 피하는 방법
+user-select: none;
+
+auto: Default. Text can be selected if the browser allows it
+none: Prevent text selection
+text: The text can be selected by the user
+all: Text selection is made with one click instead of a double-click
+
+이벤트 제어
+none : HTML 요소에 정의된 클릭, 상태(hover,active등), 커서 옵션들이 비활성화한다.
+auto : 비활성화된 이벤트를 다시 기본 기능을 하도록 되돌린다.
+inherit : 부모 요소로부터 pointer-events 값을 상속받는다
