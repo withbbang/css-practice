@@ -17,3 +17,7 @@ inherit : 부모 요소로부터 pointer-events 값을 상속받는다
 
 부모요소(not position relative)에서 자식요소를 바닥에 붙이는 법
 자식{position : absolute; bottom : 0}
+
+모바일 input태크에 숫자 키패드 띄우기
+android : <input type="number"/>
+android/ios : <input type="number" pattern="\d*" placeholder="number"/> //placeholder는 넣는건지 모르겠다
